@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import _ from 'lodash'
 
 @MJMLColumnElement({
-  tagName: 'mj-social',
+  tagName: 'mj-social-share',
   attributes: {
     'facebook-content': 'Share',
     'facebook-href': '[[SHORT_PERMALINK]]',

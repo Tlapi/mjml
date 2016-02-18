@@ -5,7 +5,7 @@ import _ from 'lodash'
 @MJMLColumnElement({
   tagName: 'mj-social-follow',
   attributes: {
-    'facebook-content': 'Share',
+    'facebook-content': 'Facebook',
     'facebook-href': '[[SHORT_PERMALINK]]',
     'facebook-icon-color' : '#3b5998',
     'font-family': 'Ubuntu, Helvetica, Arial, sans-serif',
@@ -14,21 +14,21 @@ import _ from 'lodash'
     'google-href': '[[SHORT_PERMALINK]]',
     'google-icon-color': '#dc4e41',
     'icon-size': '20px',
-    'instagram-content': 'Share',
+    'instagram-content': 'Instagram',
     'instagram-href': '[[SHORT_PERMALINK]]',
     'instagram-icon-color': '#3f729b',
     'line-height': '22px',
-    'linkedin-content': 'Share',
+    'linkedin-content': 'Linkedin',
     'linkedin-href': '[[SHORT_PERMALINK]]',
     'linkedin-icon-color' : '#0077b5',
     'padding': '10px 25px',
     'mode': 'horizontal',
-    'pinterest-content': 'Pin it',
+    'pinterest-content': 'Pinterest',
     'pinterest-href': '[[SHORT_PERMALINK]]',
     'pinterest-icon-color': '#bd081c',
     'text-decoration': 'none',
     'text-mode': true,
-    'twitter-content': 'Tweet',
+    'twitter-content': 'Twiter',
     'twitter-href': '[[SHORT_PERMALINK]]',
     'twitter-icon-color': '#55acee',
     'align': 'center',
@@ -60,32 +60,32 @@ class SocialFollow extends Component {
     facebook: {
       linkAttribute: 'https://www.facebook.com/sharer/sharer.php?u=[[URL]]',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png',
-      textModeContent: 'Share'
+      textModeContent: 'Facbook'
     },
     twitter: {
       linkAttribute: 'https://twitter.com/home?status=[[URL]]',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png',
-      textModeContent: 'Tweet'
+      textModeContent: 'Twitter'
     },
     google: {
       linkAttribute: 'https://plus.google.com/share?url=[[URL]]',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/google-plus.png',
-      textModeContent: '+1'
+      textModeContent: 'Google+'
     },
     pinterest: {
       linkAttribute: 'https://pinterest.com/pin/create/button/?url=[[URL]]&ampmedia=&ampdescription=',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/pinterest.png',
-      textModeContent: 'Pin it'
+      textModeContent: 'Pinterest'
     },
     linkedin: {
       linkAttribute: 'https://www.linkedin.com/shareArticle?mini=true&ampurl=[[URL]]&amptitle=&ampsummary=&ampsource=',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png',
-      textModeContent: 'Share'
+      textModeContent: 'LinkedIn'
     },
     instagram: {
       linkAttribute: '[[URL]]',
       icon: 'https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png',
-      textModeContent: 'Share'
+      textModeContent: 'Instagram'
     }
   };
 

@@ -41,7 +41,7 @@ import _ from 'lodash'
     'twitter': true
   }
 })
-class Social extends Component {
+class SocialShare extends Component {
 
   static baseStyles = {
     a: {
@@ -218,4 +218,4 @@ class Social extends Component {
 
 }
 
-export default Social
+export default SocialShare
